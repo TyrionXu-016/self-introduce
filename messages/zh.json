@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系",
+    "brand": "Portfolio"
+  },
+  "hero": {
+    "viewProjects": "查看项目",
+    "viewSkills": "查看技能",
+    "contactMe": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "bio": "复旦大学硕士研究生在读，研究方向为 AI。坚信技术演进的潜力，将 AI 融入开发流程，深度实践 Vibe Coding，用智能工具提升开发效率、让创意更快落地。"
+  },
+  "skills": {
+    "title": "技能"
+  },
+  "projects": {
+    "title": "项目"
+  },
+  "experience": {
+    "title": "经历"
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "有合作或交流想法？欢迎联系我。"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "profile": {
+    "name": "徐阳",
+    "title": "全栈工程师",
+    "bio": "深耕全栈开发与微服务架构，跨行业项目交付经验"
+  },
+  "skillsData": {
+    "php": "PHP",
+    "go": "Go",
+    "python": "Python",
+    "mysql": "MySQL",
+    "sqlite": "SQLite",
+    "redis": "Redis",
+    "docker": "Docker",
+    "javascript": "JavaScript",
+    "react": "React",
+    "microservices": "微服务架构"
+  },
+  "projectsData": {
+    "project1": {
+      "title": "Project One",
+      "description": "A full-stack application with modern tech stack."
+    },
+    "project2": {
+      "title": "Project Two",
+      "description": "An open source tool for developers."
+    },
+    "project3": {
+      "title": "Project Three",
+      "description": "A portfolio and blog platform."
+    }
+  },
+  "experiencesData": {
+    "exp1": {
+      "role": "人工智能硕士",
+      "company": "复旦大学",
+      "period": "2025.09 - 至今",
+      "description": "就读于计算与智能创新学院，正在努力学习人工智能。"
+    },
+    "exp2": {
+      "role": "后端开发工程师",
+      "company": "某金融科技",
+      "period": "2024.04 - 至今",
+      "description": "负责法币出入金/OTC/Card相关业务设计与研发。"
+    },
+    "exp3": {
+      "role": "PHP开发工程师",
+      "company": "深信服科技有限公司",
+      "period": "2022.02 - 2024.02",
+      "description": "负责网络控制器后端开发，完成AI感知全链路版本设计与开发。"
+    },
+    "exp4": {
+      "role": "全栈开发工程师",
+      "company": "深圳市沛顿科技有限公司",
+      "period": "2020.10 - 2022.01",
+      "description": "负责公司内部系统开发，包括但不限于招聘系统、生产成本管理系统、内部工具等。"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "brand": "Portfolio"
+  },
+  "hero": {
+    "viewProjects": "View Projects",
+    "viewSkills": "View Skills",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Master's candidate at Fudan University, focused on AI. Believing in the potential of evolving technology, I integrate AI into my workflow and practice Vibe Coding to boost development efficiency and bring ideas to life faster."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project or idea in mind? Feel free to reach out."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "profile": {
+    "name": "Tyrion Xu",
+    "title": "Full Stack Engineer",
+    "bio": "Full-stack development & microservices architecture, cross-industry project delivery"
+  },
+  "skillsData": {
+    "php": "PHP",
+    "go": "Go",
+    "python": "Python",
+    "mysql": "MySQL",
+    "sqlite": "SQLite",
+    "redis": "Redis",
+    "docker": "Docker",
+    "javascript": "JavaScript",
+    "react": "React",
+    "microservices": "Microservices Architecture"
+  },
+  "projectsData": {
+    "project1": {
+      "title": "Project One",
+      "description": "A full-stack application with modern tech stack."
+    },
+    "project2": {
+      "title": "Project Two",
+      "description": "An open source tool for developers."
+    },
+    "project3": {
+      "title": "Project Three",
+      "description": "A portfolio and blog platform."
+    }
+  },
+  "experiencesData": {
+    "exp1": {
+      "role": "Master in AI",
+      "company": "Fudan University",
+      "period": "2025.09 - Present",
+      "description": "School of Computing and Intelligence Innovation. Focusing on artificial intelligence."
+    },
+    "exp2": {
+      "role": "Backend Engineer",
+      "company": "A FinTech Company",
+      "period": "2024.04 - Present",
+      "description": "Design and development of fiat on/off-ramp, OTC, and Card-related services."
+    },
+    "exp3": {
+      "role": "PHP Developer",
+      "company": "Sangfor Technologies",
+      "period": "2022.02 - 2024.02",
+      "description": "Backend development for network controller; designed and delivered AI-perception full-chain version."
+    },
+    "exp4": {
+      "role": "Full Stack Developer",
+      "company": "Shenzhen Payton Technology",
+      "period": "2020.10 - 2022.01",
+      "description": "Internal systems including recruitment, production cost management, and internal tools."
+    }
+  }
+}
