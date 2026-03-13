@@ -29,8 +29,35 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Docker 部署
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+本项目已经提供 Docker 与 Docker Compose 支持，便于在服务器或云环境中部署。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 构建镜像
+
+在项目根目录执行：
+
+```bash
+docker build -t self-intro .
+```
+
+构建完成后，可以通过以下命令运行容器：
+
+```bash
+docker run --name self-intro -p 3000:3000 self-intro
+```
+
+然后访问 [http://localhost:3000](http://localhost:3000) 即可查看页面。
+
+### 使用 Docker Compose（推荐，一键部署）
+
+在任何一台安装了 Docker 的机器上，你只需要：
+
+```bash
+git clone git@github.com:TyrionXu-016/self-introduce.git
+cd self-introduce
+docker compose up -d --build
+```
+
+默认会在本机 `3000` 端口暴露服务，可根据需要在 `docker-compose.yml` 中调整端口映射和环境变量。
+

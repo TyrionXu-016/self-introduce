@@ -1,0 +1,16 @@
+node_modules
+.next
+.git
+.DS_Store
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+*.log
+.env
+.env.*
+.vercel
+.turbo
+.cursor
+coverage
+dist
+
