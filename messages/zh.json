@@ -115,7 +115,7 @@
       "uptime": { "label": "稳定", "hint": "系统可用性" }
     },
     "summary": {
-      "body": "6年以上后端与架构经验，深耕 Web3 交易相关业务。主导 OTC、法币出入金、Card 等核心资金链路，并使用 Go 建设三方渠道对接服务。擅长 Go、Java、Node.js / PHP（Swoole/Hyperf）与微服务架构，熟练 MySQL、Redis、Kafka/RabbitMQ、Docker/K8s。主导 PHP-FPM → 常驻内存迁移，QPS 提升 300%+，核心接口耗时下降 60%，稳定性 99.9%。"
+      "body": "6年以上后端与架构经验，深耕 Web3 交易相关业务。主导 OTC、法币出入金、Card 等核心资金链路，并使用 Go 建设三方渠道对接服务。擅长 Go、Java、Node.js / PHP（Swoole/Hyperf）与微服务架构，熟练 MySQL、Redis、Kafka/RabbitMQ、Docker/K8s。主导 PHP-FPM → 常驻内存迁移，QPS 提升 300%+，核心接口耗时下降 60%，稳定性 99.9%。同时主导团队 AI 效能体系建设，代码产出提升 40%+，缺陷率下降 25%。"
     },
     "skills": {
       "groups": {
@@ -171,6 +171,15 @@
               "主导核心 PHP 系统由 FPM 平滑迁移至 Swoole / Hyperf 常驻内存架构，系统 QPS 提升 300%+。",
               "建立内存泄漏监控与排查体系，可用性达 99.9%；慢查询治理使核心接口响应时间降低 60%。",
               "参与 MySQL、Redis、消息队列优化，保障交易 / 出入金链路一致性；沉淀发布回滚与健康检查流程。"
+            ]
+          },
+          "ai": {
+            "title": "AI效能体系建设",
+            "bullets": [
+              "引入 Claude Code、Cursor、Codex 等 AI 编程工具，团队代码产出效率提升 40%+。",
+              "搭建 AI 辅助代码审查流程，代码缺陷率降低 25%。",
+              "设计 AI Workflow 编排系统，实现需求分析、代码生成、测试用例生成的自动化流水线。",
+              "主导 AI 工具链在团队落地推广，建立 vibe coding 工程实践规范。"
             ]
           }
         }

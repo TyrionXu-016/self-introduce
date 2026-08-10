@@ -28,7 +28,7 @@ export const resumeSkillGroups = [
 export const resumeExperiences = [
   {
     key: "web3",
-    blocks: ["business", "stability"] as const,
+    blocks: ["business", "stability", "ai"] as const,
   },
   { key: "sangfor" },
   { key: "payton" },

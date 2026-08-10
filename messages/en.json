@@ -115,7 +115,7 @@
       "uptime": { "label": "Uptime", "hint": "Service availability" }
     },
     "summary": {
-      "body": "6+ years in backend and architecture, focused on Web3 trading. Led core fund rails including OTC, fiat on/off-ramp, and Card, and built third-party channel services in Go. Strong in Go, Java, Node.js / PHP (Swoole/Hyperf) and microservices; fluent with MySQL, Redis, Kafka/RabbitMQ, Docker/K8s. Led PHP-FPM to resident in-memory migration: QPS up 300%+, core API latency down 60%, availability 99.9%."
+      "body": "6+ years in backend and architecture, focused on Web3 trading. Led core fund rails including OTC, fiat on/off-ramp, and Card, and built third-party channel services in Go. Strong in Go, Java, Node.js / PHP (Swoole/Hyperf) and microservices; fluent with MySQL, Redis, Kafka/RabbitMQ, Docker/K8s. Led PHP-FPM to resident in-memory migration: QPS up 300%+, core API latency down 60%, availability 99.9%. Also led the team's AI productivity system: code output up 40%+, defect rate down 25%."
     },
     "skills": {
       "groups": {
@@ -171,6 +171,15 @@
               "Led a smooth migration of the core PHP system from FPM to Swoole / Hyperf resident in-memory architecture; QPS up 300%+.",
               "Built memory-leak monitoring and diagnosis; availability 99.9%. Slow-query work cut core API latency by 60%.",
               "Tuned MySQL, Redis, and message queues for trading / on-off-ramp consistency; established rollback and health-check release flow."
+            ]
+          },
+          "ai": {
+            "title": "AI productivity system",
+            "bullets": [
+              "Introduced Claude Code, Cursor, Codex, and other AI coding tools; team code output up 40%+.",
+              "Built an AI-assisted code review workflow; defect rate down 25%.",
+              "Designed an AI workflow orchestration system automating requirements analysis, code generation, and test-case generation.",
+              "Led rollout of the AI toolchain across the team and established vibe coding engineering practices."
             ]
           }
         }
