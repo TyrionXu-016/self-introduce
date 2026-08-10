@@ -6,12 +6,14 @@
     "projects": "项目",
     "experience": "经历",
     "contact": "联系",
+    "resume": "简历",
     "brand": "Portfolio"
   },
   "hero": {
     "viewProjects": "查看项目",
     "viewSkills": "查看技能",
-    "contactMe": "联系我"
+    "contactMe": "联系我",
+    "fullResume": "完整简历"
   },
   "about": {
     "title": "关于我",
@@ -88,6 +90,200 @@
       "company": "深圳市沛顿科技有限公司",
       "period": "2020.10 - 2022.01",
       "description": "负责公司内部系统开发，包括但不限于招聘系统、生产成本管理系统、内部工具等。"
+    }
+  },
+  "resume": {
+    "metaTitle": "Tyrion | 全栈架构师简历",
+    "metaDescription": "资深全栈工程师/架构师，覆盖服务端、前端、云原生与 AI 效能工具链。",
+    "backHome": "返回首页",
+    "legalName": "徐阳",
+    "role": "资深全栈工程师 / 架构师",
+    "tagline": "FULLSTACK ARCHITECT // AI TOOLCHAIN",
+    "emailLabel": "邮箱",
+    "sections": {
+      "summary": "概要",
+      "skills": "技能",
+      "experience": "经历",
+      "projects": "项目",
+      "awards": "竞赛",
+      "education": "教育",
+      "certs": "证书"
+    },
+    "metrics": {
+      "qps": { "label": "QPS", "hint": "常驻内存架构改造后" },
+      "output": { "label": "产出", "hint": "团队代码产出效率" },
+      "defects": { "label": "缺陷↓", "hint": "AI 辅助代码审查后" },
+      "uptime": { "label": "稳定", "hint": "常驻内存系统可用性" }
+    },
+    "summary": {
+      "body": "资深全栈工程师/架构师，具备服务端、前端、云原生与AI效能工具链经验。能够承担业务页面、跨端应用、后端服务、网关部署与多环境交付的一体化开发。熟悉微服务架构、常驻内存架构、数据库治理、慢查询诊断与性能优化，具备复杂历史系统改造和团队效能提升经验。深度使用Claude Code、Cursor、Codex等AI效能工具，主导过AI工具链落地推广。"
+    },
+    "skills": {
+      "groups": {
+        "backend": {
+          "title": "服务端与云原生",
+          "items": [
+            "服务端技术：Node.js、PHP、Swoole、Hyperf、Laravel、ThinkPHP 5/6、CodeIgniter",
+            "部署与网关：Nginx、Docker、K8s、多环境发布、服务健康检查与发布回滚",
+            "架构设计：微服务架构、云原生架构、服务拆分与治理、常驻内存架构",
+            "性能优化：高并发调优、慢查询优化、缓存策略、常驻内存服务稳定性治理"
+          ]
+        },
+        "frontend": {
+          "title": "前端与跨端",
+          "items": [
+            "Web前端：Vue、Next.js、React、组件化开发、前后端接口联调",
+            "跨端开发：Flutter、移动端页面开发、H5/PWA适配与交互实现",
+            "工程能力：路由、状态管理、构建部署、接口封装、页面性能与体验优化"
+          ]
+        },
+        "data": {
+          "title": "数据库与中间件",
+          "items": [
+            "MySQL深度：InnoDB存储引擎、锁机制、事务隔离、索引优化、慢查询诊断",
+            "中间件：Redis、Kafka、RabbitMQ、Elasticsearch",
+            "数据治理：复杂历史表结构重构、核心接口响应优化、数据一致性与稳定性保障"
+          ]
+        },
+        "ai": {
+          "title": "AI效能工具链",
+          "items": [
+            "AI编程工具：Claude Code、Cursor、Codex、GitHub Copilot",
+            "工作流编排：Workflow设计、Prompt Engineering、AI辅助代码审查",
+            "落地经验：AI工具链团队推广、研发流程提效、人效提升实践"
+          ]
+        },
+        "other": {
+          "title": "其他技术",
+          "items": [
+            "大模型API：OpenAI、Claude、DeepSeek",
+            "运维管理：IIS、SqlServer负载均衡、SharePoint"
+          ]
+        }
+      }
+    },
+    "experience": {
+      "web3": {
+        "company": "某Web3企业",
+        "role": "全栈架构师/技术负责人",
+        "period": "2024.04 - 至今",
+        "blocks": {
+          "arch": {
+            "title": "核心架构设计与演进",
+            "bullets": [
+              "负责服务端、前端与交付链路的整体架构设计，覆盖Node.js/PHP服务、Nginx网关、Docker/K8s部署和H5业务页面。",
+              "主导核心PHP系统从传统FPM模式向Swoole/Hyperf常驻内存架构平滑过渡，系统QPS提升300%+。",
+              "基于微服务架构负责OTC、法币出入金、Card等核心业务模块架构设计与开发，兼顾前后端接口契约与交付效率。",
+              "建立内存泄漏监控与排查体系，解决常驻内存架构下的内存管理难题，系统稳定性达99.9%。",
+              "设计服务拆分方案，优化服务边界与调用链路，提升系统可维护性与扩展性。"
+            ]
+          },
+          "ai": {
+            "title": "AI效能体系建设",
+            "bullets": [
+              "引入Claude Code、Cursor、Codex等AI编程工具，团队代码产出效率提升40%+。",
+              "搭建AI辅助代码审查流程，代码缺陷率降低25%。",
+              "设计AI Workflow编排系统，实现需求分析、代码生成、测试用例生成的自动化流水线。",
+              "主导AI工具链在团队落地推广，建立vibe coding工程实践规范。"
+            ]
+          },
+          "db": {
+            "title": "数据库与性能优化",
+            "bullets": [
+              "对复杂历史表结构进行慢查询诊断与重构，核心接口响应时间降低60%。",
+              "负责多环境代码迁移与发布流程（测试/预发/生产），保障上线稳定。"
+            ]
+          }
+        }
+      },
+      "sangfor": {
+        "company": "深圳市深信服科技有限公司",
+        "role": "全栈开发工程师",
+        "period": "2022.02 - 2024.01",
+        "bullets": [
+          "负责控制器端PHP开发，参与AI业务感知系统核心模块开发。",
+          "参与前后端接口联调与业务页面交付，推进系统架构设计与代码优化。",
+          "使用技术：PHP-CI、Sqlite、微服务架构。"
+        ]
+      },
+      "payton": {
+        "company": "深圳沛顿科技有限公司",
+        "role": "全栈开发工程师",
+        "period": "2020.10 - 2022.02",
+        "bullets": [
+          "负责内部生产系统的前端开发，数据验证处理入库。",
+          "负责IIS、SqlServer负载均衡管理，SharePoint运维管理。",
+          "企业微信应用开发，职员信息同步等脚本任务开发。",
+          "工作成绩：推进多个项目，获得2021年总经理奖。"
+        ]
+      },
+      "perfect": {
+        "company": "武汉完美演绎网络科技有限公司",
+        "role": "全栈开发工程师",
+        "period": "2020.06 - 2020.10",
+        "bullets": [
+          "负责商城小程序开发，使用ThinkPHP、MySQL、Vue。",
+          "负责商城活动模块的迭代开发。",
+          "负责“天猫一小时达”项目数据采集与处理。"
+        ]
+      }
+    },
+    "projects": {
+      "aiperception": {
+        "name": "AI业务感知系统",
+        "period": "2022.02 - 2024.03",
+        "role": "核心开发",
+        "result": "实现故障快速定位，运维效率提升50%"
+      },
+      "pcas": {
+        "name": "PCAS产品成本分析系统",
+        "period": "2021.10 - 2022.01",
+        "role": "项目负责人",
+        "result": "获总经理奖"
+      },
+      "pqc": {
+        "name": "PQC无纸化项目",
+        "period": "2021.01 - 2021.10",
+        "role": "核心开发",
+        "result": "查询效率提升80%"
+      },
+      "mall": {
+        "name": "微信商城小程序",
+        "period": "2020.06 - 2020.10",
+        "role": "策划及开发",
+        "result": "成功上线运营"
+      }
+    },
+    "awards": {
+      "underwater": {
+        "name": "国际水中机器人大赛",
+        "period": "2018-09",
+        "result": "参与四个比赛项目，分别取得一/一/二/三等奖"
+      },
+      "chinaRobot": {
+        "name": "中国机器人大赛",
+        "period": "2018-05",
+        "result": "参与四个比赛项目，分别取得一/二/二/二等奖"
+      }
+    },
+    "education": {
+      "fudan": {
+        "school": "复旦大学",
+        "degree": "硕士",
+        "major": "人工智能",
+        "period": "2025-2028"
+      },
+      "dlnu": {
+        "school": "大连民族大学",
+        "degree": "本科",
+        "major": "计算机科学与技术",
+        "period": "2016-2020"
+      }
+    },
+    "certs": {
+      "cet4": {
+        "name": "大学英语四级"
+      }
     }
   }
 }

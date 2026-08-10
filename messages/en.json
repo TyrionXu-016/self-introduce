@@ -6,12 +6,14 @@
     "projects": "Projects",
     "experience": "Experience",
     "contact": "Contact",
+    "resume": "Resume",
     "brand": "Portfolio"
   },
   "hero": {
     "viewProjects": "View Projects",
     "viewSkills": "View Skills",
-    "contactMe": "Contact Me"
+    "contactMe": "Contact Me",
+    "fullResume": "Full resume"
   },
   "about": {
     "title": "About Me",
@@ -88,6 +90,200 @@
       "company": "Shenzhen Payton Technology",
       "period": "2020.10 - 2022.01",
       "description": "Internal systems including recruitment, production cost management, and internal tools."
+    }
+  },
+  "resume": {
+    "metaTitle": "Tyrion | Full-Stack Architect Resume",
+    "metaDescription": "Senior full-stack engineer/architect across backend, frontend, cloud-native, and AI productivity toolchains.",
+    "backHome": "Back to home",
+    "legalName": "Xu Yang",
+    "role": "Senior Full-Stack Engineer / Architect",
+    "tagline": "FULLSTACK ARCHITECT // AI TOOLCHAIN",
+    "emailLabel": "Email",
+    "sections": {
+      "summary": "Summary",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "awards": "Awards",
+      "education": "Education",
+      "certs": "Certificates"
+    },
+    "metrics": {
+      "qps": { "label": "QPS", "hint": "After in-memory architecture migration" },
+      "output": { "label": "Output", "hint": "Team coding throughput" },
+      "defects": { "label": "Defects↓", "hint": "After AI-assisted code review" },
+      "uptime": { "label": "Uptime", "hint": "In-memory service availability" }
+    },
+    "summary": {
+      "body": "Senior full-stack engineer/architect with experience across backend, frontend, cloud-native, and AI productivity toolchains. Able to own end-to-end delivery spanning business pages, cross-platform apps, backend services, gateway deployment, and multi-environment release. Familiar with microservice architecture, resident in-memory architecture, database governance, slow-query diagnosis, and performance tuning; experienced in modernizing complex legacy systems and lifting team productivity. Deep user of Claude Code, Cursor, Codex, and other AI coding tools; has led AI toolchain rollout."
+    },
+    "skills": {
+      "groups": {
+        "backend": {
+          "title": "Backend & Cloud-Native",
+          "items": [
+            "Backend: Node.js, PHP, Swoole, Hyperf, Laravel, ThinkPHP 5/6, CodeIgniter",
+            "Deploy & gateway: Nginx, Docker, K8s, multi-env release, health checks, rollback",
+            "Architecture: microservices, cloud-native, service split & governance, resident in-memory architecture",
+            "Performance: high-concurrency tuning, slow-query optimization, caching, in-memory service stability"
+          ]
+        },
+        "frontend": {
+          "title": "Frontend & Cross-Platform",
+          "items": [
+            "Web: Vue, Next.js, React, componentized development, API integration",
+            "Cross-platform: Flutter, mobile pages, H5/PWA adaptation and interaction",
+            "Engineering: routing, state, build/deploy, API wrappers, page performance"
+          ]
+        },
+        "data": {
+          "title": "Database & Middleware",
+          "items": [
+            "MySQL: InnoDB, locks, isolation levels, index tuning, slow-query diagnosis",
+            "Middleware: Redis, Kafka, RabbitMQ, Elasticsearch",
+            "Data governance: legacy schema refactor, core API latency, consistency and stability"
+          ]
+        },
+        "ai": {
+          "title": "AI Productivity Toolchain",
+          "items": [
+            "AI coding tools: Claude Code, Cursor, Codex, GitHub Copilot",
+            "Workflow: workflow design, prompt engineering, AI-assisted code review",
+            "Rollout: team adoption, R&D process speedup, productivity practice"
+          ]
+        },
+        "other": {
+          "title": "Other",
+          "items": [
+            "LLM APIs: OpenAI, Claude, DeepSeek",
+            "Ops: IIS, SQL Server load balancing, SharePoint"
+          ]
+        }
+      }
+    },
+    "experience": {
+      "web3": {
+        "company": "A Web3 company",
+        "role": "Full-Stack Architect / Tech Lead",
+        "period": "2024.04 - Present",
+        "blocks": {
+          "arch": {
+            "title": "Core architecture design & evolution",
+            "bullets": [
+              "Owned end-to-end architecture across backend, frontend, and delivery: Node.js/PHP services, Nginx gateway, Docker/K8s deploy, and H5 business pages.",
+              "Led a smooth migration of the core PHP system from classic FPM to Swoole/Hyperf resident in-memory architecture, lifting system QPS by 300%+.",
+              "Designed and built core OTC, fiat on/off-ramp, and Card modules on a microservice architecture, balancing API contracts and delivery speed.",
+              "Built a memory-leak monitoring and diagnosis system for resident in-memory services; availability reached 99.9%.",
+              "Designed service-split boundaries and call chains to improve maintainability and extensibility."
+            ]
+          },
+          "ai": {
+            "title": "AI productivity system",
+            "bullets": [
+              "Introduced Claude Code, Cursor, and Codex; team coding output rose 40%+.",
+              "Set up AI-assisted code review; defect rate dropped 25%.",
+              "Designed an AI workflow system covering requirements analysis, code generation, and test-case generation.",
+              "Led toolchain rollout and established vibe-coding engineering practices."
+            ]
+          },
+          "db": {
+            "title": "Database & performance",
+            "bullets": [
+              "Diagnosed and refactored slow queries on complex legacy schemas; core API latency dropped 60%.",
+              "Owned multi-environment migration and release (test / staging / prod) for stable launches."
+            ]
+          }
+        }
+      },
+      "sangfor": {
+        "company": "Sangfor Technologies",
+        "role": "Full-Stack Engineer",
+        "period": "2022.02 - 2024.01",
+        "bullets": [
+          "PHP development on the controller side; core modules of the AI business-perception system.",
+          "Frontend/backend integration and business-page delivery; architecture and code quality improvements.",
+          "Stack: PHP-CI, SQLite, microservice architecture."
+        ]
+      },
+      "payton": {
+        "company": "Shenzhen Payton Technology",
+        "role": "Full-Stack Engineer",
+        "period": "2020.10 - 2022.02",
+        "bullets": [
+          "Frontend for internal production systems; validation and data ingest.",
+          "IIS and SQL Server load-balancing management; SharePoint operations.",
+          "WeCom app development and staff-sync scripts.",
+          "Outcome: shipped multiple projects; won the 2021 GM Award."
+        ]
+      },
+      "perfect": {
+        "company": "Wuhan Perfect Deduction Network Technology",
+        "role": "Full-Stack Engineer",
+        "period": "2020.06 - 2020.10",
+        "bullets": [
+          "Mall mini-program with ThinkPHP, MySQL, and Vue.",
+          "Iterated mall campaign modules.",
+          "Data collection and processing for the Tmall One-Hour Delivery project."
+        ]
+      }
+    },
+    "projects": {
+      "aiperception": {
+        "name": "AI Business Perception System",
+        "period": "2022.02 - 2024.03",
+        "role": "Core developer",
+        "result": "Faster incident localization; ops efficiency up 50%"
+      },
+      "pcas": {
+        "name": "PCAS Product Cost Analysis",
+        "period": "2021.10 - 2022.01",
+        "role": "Project lead",
+        "result": "Won the GM Award"
+      },
+      "pqc": {
+        "name": "PQC Paperless Project",
+        "period": "2021.01 - 2021.10",
+        "role": "Core developer",
+        "result": "Query efficiency up 80%"
+      },
+      "mall": {
+        "name": "WeChat Mall Mini Program",
+        "period": "2020.06 - 2020.10",
+        "role": "Planning & development",
+        "result": "Launched and operated in production"
+      }
+    },
+    "awards": {
+      "underwater": {
+        "name": "International Underwater Robot Competition",
+        "period": "2018-09",
+        "result": "Four events: 1st / 1st / 2nd / 3rd"
+      },
+      "chinaRobot": {
+        "name": "China Robot Competition",
+        "period": "2018-05",
+        "result": "Four events: 1st / 2nd / 2nd / 2nd"
+      }
+    },
+    "education": {
+      "fudan": {
+        "school": "Fudan University",
+        "degree": "M.S.",
+        "major": "Artificial Intelligence",
+        "period": "2025-2028"
+      },
+      "dlnu": {
+        "school": "Dalian Minzu University",
+        "degree": "B.S.",
+        "major": "Computer Science and Technology",
+        "period": "2016-2020"
+      }
+    },
+    "certs": {
+      "cet4": {
+        "name": "CET-4"
+      }
     }
   }
 }
