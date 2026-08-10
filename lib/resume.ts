@@ -11,24 +11,24 @@ export const resumeSections = [
 ] as const;
 
 export const resumeMetrics = [
+  { key: "years", value: "6+" },
   { key: "qps", value: "300%+" },
-  { key: "output", value: "40%+" },
-  { key: "defects", value: "25%" },
+  { key: "latency", value: "60%" },
   { key: "uptime", value: "99.9%" },
 ] as const;
 
 export const resumeSkillGroups = [
   "backend",
-  "frontend",
+  "architecture",
   "data",
-  "ai",
-  "other",
+  "engineering",
+  "business",
 ] as const;
 
 export const resumeExperiences = [
   {
     key: "web3",
-    blocks: ["arch", "ai", "db"] as const,
+    blocks: ["business", "stability"] as const,
   },
   { key: "sangfor" },
   { key: "payton" },
@@ -36,10 +36,10 @@ export const resumeExperiences = [
 ] as const;
 
 export const resumeProjects = [
+  "fundlink",
   "aiperception",
   "pcas",
   "pqc",
-  "mall",
 ] as const;
 
 export const resumeAwards = ["underwater", "chinaRobot"] as const;
