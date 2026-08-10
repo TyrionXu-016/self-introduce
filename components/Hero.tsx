@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { profile } from "@/lib/data";
 
 export default function Hero() {
@@ -47,6 +48,12 @@ export default function Hero() {
           >
             {t("contactMe")}
           </a>
+          <Link
+            href="/resume"
+            className="rounded-full border border-zinc-300 px-6 py-3 text-sm font-medium text-zinc-700 transition hover:border-zinc-400 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-600 dark:hover:bg-zinc-800"
+          >
+            {t("fullResume")}
+          </Link>
         </div>
       </div>
     </section>

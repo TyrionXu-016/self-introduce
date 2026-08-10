@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -45,6 +46,14 @@ export default function Nav() {
               >
                 {t("experience")}
               </a>
+            </li>
+            <li>
+              <Link
+                href="/resume"
+                className="text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+              >
+                {t("resume")}
+              </Link>
             </li>
             <li>
               <a
