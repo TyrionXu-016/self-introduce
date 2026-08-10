@@ -4,32 +4,49 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { resumeSections } from "@/lib/resume";
 
+type SectionId = (typeof resumeSections)[number]["id"];
+
+function resolveActiveSection(): SectionId | null {
+  const nodes = resumeSections
+    .map((section) => document.getElementById(section.id))
+    .filter((node): node is HTMLElement => Boolean(node));
+  if (nodes.length === 0) return null;
+
+  const remaining =
+    document.documentElement.scrollHeight - window.scrollY - window.innerHeight;
+  if (remaining < 80) {
+    return nodes[nodes.length - 1].id as SectionId;
+  }
+
+  const sentinel = window.innerHeight * 0.25;
+  let current = nodes[0];
+  for (const node of nodes) {
+    if (node.getBoundingClientRect().top <= sentinel) {
+      current = node;
+    } else {
+      break;
+    }
+  }
+  return current.id as SectionId;
+}
+
 export default function ResumeRail() {
   const t = useTranslations("resume.sections");
-  const [active, setActive] = useState<(typeof resumeSections)[number]["id"]>(
-    "summary",
-  );
+  const [active, setActive] = useState<SectionId>("summary");
 
   useEffect(() => {
-    const nodes = resumeSections
-      .map((section) => document.getElementById(section.id))
-      .filter((node): node is HTMLElement => Boolean(node));
-    if (nodes.length === 0) return;
+    const update = () => {
+      const next = resolveActiveSection();
+      if (next) setActive(next);
+    };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (visible?.target.id) {
-          setActive(visible.target.id as (typeof resumeSections)[number]["id"]);
-        }
-      },
-      { rootMargin: "-30% 0px -55% 0px", threshold: [0.15, 0.4, 0.7] },
-    );
-
-    nodes.forEach((node) => observer.observe(node));
-    return () => observer.disconnect();
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
   }, []);
 
   return (
@@ -48,6 +65,8 @@ export default function ResumeRail() {
               <li key={section.id}>
                 <a
                   href={`#${section.id}`}
+                  aria-current={isActive ? "true" : undefined}
+                  onClick={() => setActive(section.id)}
                   className={`block border-l-2 px-3 py-1.5 font-mono text-xs transition ${
                     isActive
                       ? "-ml-px border-[var(--resume-accent)] bg-[var(--resume-accent-deep)] text-[var(--resume-fg)]"
@@ -73,6 +92,8 @@ export default function ResumeRail() {
               <li key={section.id}>
                 <a
                   href={`#${section.id}`}
+                  aria-current={isActive ? "true" : undefined}
+                  onClick={() => setActive(section.id)}
                   className={`inline-block rounded-full px-3 py-1 font-mono text-xs transition ${
                     isActive
                       ? "bg-[var(--resume-accent-deep)] text-[var(--resume-fg)]"
