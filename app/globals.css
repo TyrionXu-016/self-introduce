@@ -28,3 +28,32 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
+
+.resume-shell {
+  --resume-bg: #0e1412;
+  --resume-fg: #d7ece4;
+  --resume-muted: #7db8a2;
+  --resume-dim: #6f8a80;
+  --resume-accent: #3dba8b;
+  --resume-accent-deep: #1f6b52;
+  --resume-line: #23463c;
+  --resume-panel: #0a100e;
+  min-height: 100vh;
+  background: var(--resume-bg);
+  color: var(--resume-fg);
+}
+
+@keyframes resume-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.resume-in {
+  animation: resume-in 0.55s ease both;
+}
