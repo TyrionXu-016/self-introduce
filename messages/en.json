@@ -189,7 +189,7 @@
         "role": "Full-Stack Engineer",
         "period": "2022.02 — 2024.01",
         "bullets": [
-          "PHP backend on the controller side and core modules of the AI business-perception system; APIs, integration, and microservice collaboration (CodeIgniter, SQLite)."
+          "PHP / Go backend on the controller side and core modules of the AI business-perception system; built perception data services in Go (Gin); APIs, integration, and microservice collaboration (CodeIgniter, SQLite)."
         ]
       },
       "payton": {
@@ -197,7 +197,7 @@
         "role": "Full-Stack Engineer",
         "period": "2020.10 — 2022.02",
         "bullets": [
-          "Backend data processing and ingest validation for production systems; WeCom apps and staff-sync scripts; won the 2021 GM Award."
+          "Backend data processing and ingest validation for production systems, with validation and sync services in Go; WeCom apps and staff-sync scripts; won the 2021 GM Award."
         ]
       },
       "perfect": {
@@ -205,7 +205,7 @@
         "role": "Full-Stack Engineer",
         "period": "2020.06 — 2020.10",
         "bullets": [
-          "Mall backend and campaign modules with ThinkPHP and MySQL; data collection and processing for Tmall One-Hour Delivery."
+          "Mall backend and campaign modules with Go, ThinkPHP, and MySQL; data collection and processing for Tmall One-Hour Delivery in Go."
         ]
       }
     },
