@@ -214,25 +214,25 @@
         "name": "Web3 core fund & trading rails (OTC / on-off-ramp / Card)",
         "period": "2024.04 — Present",
         "role": "Architect & lead",
-        "result": "High-concurrency microservices and Go (Gin, GORM) third-party channel integration"
+        "result": "Built high-concurrency microservices and third-party channel integration in Go (Gin, GORM), covering payment/on-off-ramp access, callback verification, reconciliation, and retries"
       },
       "aiperception": {
         "name": "AI Business Perception System",
         "period": "2022.02 — 2024.03",
         "role": "Core developer",
-        "result": "Faster incident localization; ops efficiency up 50%"
+        "result": "Built perception ingest, alerting, and query services in Go; faster incident localization, ops efficiency up 50%"
       },
       "pcas": {
         "name": "PCAS Product Cost Analysis",
         "period": "2021.10 — 2022.01",
         "role": "Project lead",
-        "result": "End-to-end delivery; won the GM Award"
+        "result": "Implemented cost calculation, ingest validation, and reporting APIs in Go; end-to-end delivery, won the GM Award"
       },
       "pqc": {
         "name": "PQC Paperless Project",
         "period": "2021.01 — 2021.10",
         "role": "Core developer",
-        "result": "Query efficiency up 80%"
+        "result": "Rewrote query APIs and data-aggregation services in Go; query efficiency up 80%"
       }
     },
     "awards": {
