@@ -1,5 +1,5 @@
 export const profile = {
-  avatar: "/avatar.svg",
+  avatar: "/xu-yang-avatar.jpg",
   email: "25263050055@m.fudan.edu.cn",
   socialLinks: [
     { name: "GitHub", url: "https://github.com/TyrionXu-016", icon: "github" },
