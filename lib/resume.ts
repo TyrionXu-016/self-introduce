@@ -20,6 +20,7 @@ export const resumeMetrics = [
 export const resumeSkillGroups = [
   "backend",
   "architecture",
+  "media",
   "data",
   "engineering",
   "business",
@@ -36,6 +37,8 @@ export const resumeExperiences = [
 ] as const;
 
 export const resumeProjects = [
+  "media",
+  "agentos",
   "fundlink",
   "aiperception",
   "pcas",

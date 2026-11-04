@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "Master's candidate at Fudan University, focused on AI; previously awarded in multiple international and domestic robotics competitions. Believing in the potential of evolving technology, I integrate AI into my workflow and practice Vibe Coding to boost development efficiency and bring ideas to life faster."
+    "bio": "A part-time AI master’s student in the 2025 cohort at Fudan University’s College of Computer Science and Artificial Intelligence, with a bachelor’s degree in Computer Science and Technology from Dalian Minzu University. I have 6+ years of software engineering and architecture experience across backend services, microservices, media transcoding, segmentation, and CDN delivery. I received multiple awards in international underwater robotics and China robotics competitions. I am currently developing an AgentOS project for robotics applications and exploring multimodal perception, task planning, and execution feedback."
   },
   "skills": {
     "title": "Skills"
@@ -37,8 +37,8 @@
   },
   "profile": {
     "name": "Tyrion Xu",
-    "title": "Full Stack Engineer",
-    "bio": "Full-stack development & microservices architecture, cross-industry project delivery"
+    "title": "Software Architect · AI Master’s Student",
+    "bio": "6+ years of software engineering experience, with interests in media processing and delivery, microservices, and embodied AI systems."
   },
   "skillsData": {
     "php": "PHP",
@@ -71,7 +71,7 @@
       "role": "Master in AI",
       "company": "Fudan University",
       "period": "2025.09 - Present",
-      "description": "School of Computing and Intelligence Innovation. Focusing on artificial intelligence."
+      "description": "Part-time master’s student, 2025 cohort, College of Computer Science and Artificial Intelligence; interested in multimodal perception and embodied AI."
     },
     "exp2": {
       "role": "Backend Engineer",
@@ -93,11 +93,11 @@
     }
   },
   "resume": {
-    "metaTitle": "Tyrion | Full-Stack Architect Resume",
-    "metaDescription": "6+ years in backend and architecture for Web3 trading, OTC, fiat on/off-ramp, and Card fund rails.",
+    "metaTitle": "Xu Yang | Software Architecture and AI",
+    "metaDescription": "6+ years of software engineering experience, with interests in media processing and delivery, microservices, and embodied AI systems.",
     "backHome": "Back to home",
     "role": "Full-Stack Architect / Tech Lead",
-    "tagline": "WEB3 // OTC · FIAT · CARD",
+    "tagline": "MEDIA SYSTEMS · MICROSERVICES · EMBODIED AI",
     "emailLabel": "Email",
     "sections": {
       "summary": "Summary",
@@ -109,13 +109,25 @@
       "certs": "Certificates"
     },
     "metrics": {
-      "years": { "label": "Years", "hint": "Backend & architecture" },
-      "qps": { "label": "QPS", "hint": "After PHP-FPM to in-memory" },
-      "latency": { "label": "Latency↓", "hint": "Core API response time" },
-      "uptime": { "label": "Uptime", "hint": "Service availability" }
+      "years": {
+        "label": "Years",
+        "hint": "Backend & architecture"
+      },
+      "qps": {
+        "label": "QPS",
+        "hint": "After PHP-FPM to in-memory"
+      },
+      "latency": {
+        "label": "Latency↓",
+        "hint": "Core API response time"
+      },
+      "uptime": {
+        "label": "Uptime",
+        "hint": "Service availability"
+      }
     },
     "summary": {
-      "body": "6+ years in backend and architecture, focused on Web3 trading. Led core fund rails including OTC, fiat on/off-ramp, and Card, and built third-party channel services in Go. Strong in Go, Java, Node.js / PHP (Swoole/Hyperf) and microservices; fluent with MySQL, Redis, Kafka/RabbitMQ, Docker/K8s. Led PHP-FPM to resident in-memory migration: QPS up 300%+, core API latency down 60%, availability 99.9%. Also led the team's AI productivity system: code output up 40%+, defect rate down 25%."
+      "body": "A part-time AI master’s student in the 2025 cohort at Fudan University’s College of Computer Science and Artificial Intelligence, with a bachelor’s degree in Computer Science and Technology from Dalian Minzu University. I have 6+ years of software engineering and architecture experience across backend services, microservices, media transcoding, segmentation, and CDN delivery. I received multiple awards in international underwater robotics and China robotics competitions. I am currently developing an AgentOS project for robotics applications and exploring multimodal perception, task planning, and execution feedback."
     },
     "skills": {
       "groups": {
@@ -147,6 +159,14 @@
           "title": "Domain",
           "items": [
             "Web3 / digital-asset trading, OTC, fiat on/off-ramp, Card / payments, third-party channel integration, fund safety"
+          ]
+        },
+        "media": {
+          "title": "Media Systems Architecture",
+          "items": [
+            "Experience developing and integrating media transcoding workflows, from source processing to playable output.",
+            "Experience with media segmentation and playback asset organization, connecting transcoded output to playback delivery.",
+            "Experience with CDN integration and content delivery, diagnosing access and playback issues across origins, distribution nodes, and clients."
           ]
         }
       }
@@ -233,6 +253,18 @@
         "period": "2021.01 — 2021.10",
         "role": "Core developer",
         "result": "Rewrote query APIs and data-aggregation services in Go; query efficiency up 80%"
+      },
+      "media": {
+        "name": "Media Processing and Content Delivery",
+        "period": "Project experience",
+        "role": "Software architecture and development",
+        "result": "Work involving media transcoding, segmentation, and CDN delivery, with a focus on pipeline integration, playback assets, and end-to-end troubleshooting."
+      },
+      "agentos": {
+        "name": "AgentOS for Robotics Applications",
+        "period": "In progress",
+        "role": "Engineering and research exploration",
+        "result": "Engineering work on task runtime, skill execution, safety gateways, and simulated robot integration; research interests include multimodal perception, task planning, and execution feedback."
       }
     },
     "awards": {
@@ -250,7 +282,7 @@
     "education": {
       "fudan": {
         "school": "Fudan University",
-        "degree": "M.S. (in progress)",
+        "degree": "Part-time Master’s (2025 cohort, in progress)",
         "major": "Artificial Intelligence",
         "period": "2025—2028"
       },
@@ -265,6 +297,7 @@
       "cet4": {
         "name": "CET-4"
       }
-    }
+    },
+    "name": "XU YANG / TYRION"
   }
 }

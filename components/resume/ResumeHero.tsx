@@ -10,7 +10,7 @@ export default async function ResumeHero() {
         SYS / RESUME · TYRION
       </p>
       <h1 className="mt-3 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-        TYRION
+        {t("name")}
       </h1>
       <p className="mt-3 text-lg text-[var(--resume-fg)]">{t("role")}</p>
       <p className="mt-1 font-mono text-xs text-[var(--resume-muted)]">{t("tagline")}</p>
